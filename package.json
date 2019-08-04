@@ -6,7 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha --timeout 10000 --compilers js:@babel/register --require babel-polyfill ./tests/**.js",
     "start": "nodemon   index.js --ext js --exec babel-node",
-    "coverage": "NODE_ENV=test ./node_modules/.bin/babel-istanbul cover _mocha -- ./tests/**.js --timeout 15000 --compilers js:@babel/register --require babel-polyfill",
+    "coverage": "NODE_ENV=test  cover _mocha -- ./tests/**.js --timeout 15000 --compilers js:@babel/register --require babel-polyfill",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "author": "",
