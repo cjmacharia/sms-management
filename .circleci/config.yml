@@ -36,7 +36,7 @@ jobs:
       - *save_cache
       - run:
           name: run tests
-          command: npm run coverage
+          command: npm run test
       - run:
           name: Setup Code Climate test-reporter
           command: |
