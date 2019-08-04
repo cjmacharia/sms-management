@@ -48,6 +48,4 @@ workflows:
     jobs:
       - build
       - tests
-#           requires:
-#             - build
 
