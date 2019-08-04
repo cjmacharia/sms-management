@@ -1,16 +1,19 @@
 {
 	"presets": [
-			"env"
+		"@babel/preset-env"
 	],
 	"env": {
 		"test": {
-			"plugins": [ 
+			"plugins": [
 				"istanbul"
-		  ]
+			],
+			"presets": [
+				"@babel/preset-env"
+			]
 		}
 	},
 	"plugins": [
-    "transform-object-rest-spread",
-    "transform-async-to-generator"
+		"transform-object-rest-spread",
+		"transform-async-to-generator"
 	]
 }
