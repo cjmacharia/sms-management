@@ -4,24 +4,32 @@
 SMS-Management-Application
 An SMS-Management-Application is a system that enables users send sms to each other
 
-Technologies used
-NodeJs - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-KOAJS - Expressive HTTP middleware framework for node.js to make web applications and APIs more enjoyable to write. Koa's middleware stack flows in a stack-like manner, allowing you to perform actions downstream then filter and manipulate the response upstream.
-Postman - testing the API
-MongoDB: A NOSQL document-driven database
+- Technologies used
 
-Mongoose: A schema-based solution to model your application data
-Installation
-Prerequisites
-Node.js v7+ Check your node version by typing node -v, node will also install npm for you which we will require in this project.
-Clone the repository https://github.com/cjmash/sms-management.git
-Create an account, users and databases on Mlab
-Navigate the sms-management folder.
-Create a .env file using the .env.default as a guide.
-npm install to install all dependencies.
-npm start - The app runs on port 3030
-npm test runs all the tests.
-Endpoints
+- NodeJs - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+- KOAJS - Expressive HTTP middleware framework for node.js to make web applications and APIs more enjoyable to write.
+
+- Postman - testing the API
+
+- MongoDB: A NOSQL document-driven database
+
+- Mongoose: A schema-based solution to model your application data.
+
+- Installation
+
+- Prerequisites
+
+- Node.js v7+ Check your node version by typing node -v, node will also install npm for you which we will require in this project.
+
+- Clone the repository https://github.com/cjmash/sms-management.git
+- Create an account, users and databases on Mlab
+- Navigate the sms-management folder.
+- Create a .env file using the .env.default as a guide.
+- npm install to install all dependencies.
+- npm start - The app runs on port 3030
+- npm test runs all the tests.
+- Endpoints
 
 | url Endpoint          |  http requests|               |
 |-----------------------| --------------|---------------|
